@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.actions.act_window" id="action_list_vehicles1">
+        <field name="name">holder</field>
+        <field name="res_model">res.partner</field>
+        <field name="view_mode">tree,form,kanban</field>
+    </record>
+
+     <menuitem id="holder"
+        name="holder"
+        sequence="3"
+        action="action_list_vehicles1"
+        parent="menu_vehicles_garage_main"
+    />
+</odoo>
